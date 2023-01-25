@@ -9,17 +9,54 @@
    justify-content: space-between;
   
 }
+#main .container-fluid{
+    background-color: #f6f7fc
+}
+   
 #main .login{
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#main .login .box span{
-    font-size: 30px;
+    
 }
 
+#main .container-fluid .login .box label{
+    font-weight: 500;
+}
+#main .container-fluid .login .box .input{
+    width: 600px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#main .container-fluid .login .box .input::placeholder{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#main .container-fluid .login .box .box-password{
+    width:600px ;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#main .container-fluid .login .box .box-password .box{
+    width: 20px;
+    height: 20px;
+}
+#main .container-fluid .login .box .box-password input[type="checkbox"] {
+   accent-color: #f8761e;
+   width: 100%;
+   height: 100%;
+}
+#main .container-fluid .login .box .box-password input[type="checkbox"]:checked{
+    color: white;
+}
 #main .img{
+    width: 788px;
    height: 100vh;
 }
 #main .img img{
