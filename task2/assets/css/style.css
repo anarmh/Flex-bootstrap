@@ -44,16 +44,37 @@
     justify-content: space-between;
 }
 #main .container-fluid .login .box .box-password .box{
+    display: flex;
+    
+}
+#main .container-fluid .login .box .box-password .box .checked{
     width: 20px;
     height: 20px;
+    border-radius: 5px;
+}
+#main .container-fluid .login .box .box-password .box .span{
+    padding-left: 10px;
 }
 #main .container-fluid .login .box .box-password input[type="checkbox"] {
    accent-color: #f8761e;
+   
    width: 100%;
    height: 100%;
+   border-radius: 5px;      
+
 }
-#main .container-fluid .login .box .box-password input[type="checkbox"]:checked{
+#main .container-fluid .login .box .box-password .checkbox:checked{
+    
+    
+}
+#main .container-fluid .login .box button{
+    width: 600px;
+    height: 50px;
+    background-color: #f8761e;
     color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 #main .img{
     width: 788px;
